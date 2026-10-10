@@ -1,0 +1,36 @@
+# Blender 产物
+*.blend
+*.blend1
+*.blend2
+
+# 渲染输出
+outputs/
+_frames*/
+*.png
+*.jpg
+*.jpeg
+!examples/**/*.png
+*.mp4
+*.mov
+*.mkv
+
+# Blender 安装目录（不要提交大二进制）
+blender/
+dist/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时实验脚本
+lab/
+_claude/
